@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1610811929284.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "31813610",
+    "id" : "BCCF81CD",
+    "lastKnownWriteTime" : 1610809643,
+    "last_content_update" : 1610809643,
+    "path" : "~/Semestr 3/Techniki Wizualizacji Danych/Project3_last/upload.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "17,40",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

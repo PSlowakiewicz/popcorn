@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1610810538210.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "883640559",
+    "id" : "A87FFCA0",
+    "lastKnownWriteTime" : 1610920248,
+    "last_content_update" : 1610920248822,
+    "path" : "~/Semestr 3/Techniki Wizualizacji Danych/Project3_last/Server.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "379,1",
+        "scrollLine" : "350"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

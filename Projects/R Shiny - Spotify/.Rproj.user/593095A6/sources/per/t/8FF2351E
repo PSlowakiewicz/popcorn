@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1610809800593.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1119712430",
+    "id" : "8FF2351E",
+    "lastKnownWriteTime" : 1610920248,
+    "last_content_update" : 1610920248804,
+    "path" : "~/Semestr 3/Techniki Wizualizacji Danych/Project3_last/UI.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "38,0",
+        "scrollLine" : "8"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

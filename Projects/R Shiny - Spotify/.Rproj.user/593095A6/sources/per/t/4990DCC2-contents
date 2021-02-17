@@ -1,0 +1,131 @@
+library(igraph)
+library(networkD3)
+
+library(shiny)
+library(wordcloud2)
+
+data <- data.frame(
+  source=c(0, 1, 2),
+  target=c(1, 2, 0),
+  value=c(1,1,1)
+)
+nodes <- data.frame(
+  name = c("A", "B", "C"), 
+                    group = c(1, 2 ,2), 
+                    size = c(1,20,10)
+                    )
+
+
+Nodes1 <- read.csv("test.csv")
+Nodes1 <- Nodes1[-1]
+Artist <- data.frame(name = c("Imagine Dragons", "Mata", "Taco Hemingway", "Sia", "ACDC", "Lol"), group = c(1,1,1,2,2, 1), size = 1:6)
+Links1 <- rbind(Nodes1, data.frame(source = 0, destination = 1))
+Links1$value <- c(5:9)
+
+
+#Links1$name <- c("Imagine Dragons", "Mata", "Taco Hemingway", "Sia", "ACDC")
+p <- forceNetwork(Links = data, Nodes = nodes,
+                  Source = "source", Target = "target",
+                  Value = "value", NodeID = "name",
+                  Group = "group", opacity = 0.8)
+
+p$x$nodes$hyperlink <- paste0(
+  'http://en.wikipedia.org/wiki/Special:Search?search=',
+  MisNodes$name
+)
+p$x$options$clickAction = 'window.open(d.hyperlink)'
+
+
+
+
+p
+w <- forceNetwork(Links = Links1, Nodes = Artist,
+             Source = "source", Target = "destination",
+              Value = "value",NodeID = "name", 
+             Group = "group", opacity = 0.8, zoom = T)
+
+simpleNetwork(Links1)
+w
+
+
+
+
+
+
+
+
+
+
+
+
+output$radar <- renderPlot({
+  allGenres <- read.csv("allGenres.csv", sep=",")
+  allGenresTomek <- read.csv("allGenresTomek.csv")
+  allGenresDominik <- read.csv("allGenresDominik.csv")
+  allGenresPatryk <- read.csv("allGenresPatryk.csv")
+  
+  
+  genres <- full_join(allGenres, allGenresDominik, by = "allGenres", replace())
+  genres <- full_join(genres, allGenresPatryk, by = "allGenres")
+  genres <- full_join(genres, allGenresTomek, by = "allGenres")
+  rownames(genres) <- genres$allGenres
+  genres <- head(genres, input$radarNumber)
+  genres <- genres[-1]
+  genres[is.na(genres)] <- 0
+  genres <- genres[-1]
+  
+  
+  genres <- t(genres)
+  genres <- as.data.frame(rbind(rep(20,input$radarNumber) , rep(0,input$radarNumber) , genres))
+  
+  colors_border=c( rgb(0.2,0.5,0.5,0.9), rgb(0.8,0.2,0.5,0.9) , rgb(0.7,0.5,0.1,0.9) )
+  colors_in=c( rgb(0.2,0.5,0.5,0.4), rgb(0.8,0.2,0.5,0.4) , rgb(0.7,0.5,0.1,0.4) )
+  
+  plot <- radarchart(genres, pcol=colors_border , pfcol=colors_in , plwd=4 , plty=1)
+  plot <- legend(x=1.5, y=1, legend = rownames(genres[-c(1,2),]), bty = "n", pch=20 , col=colors_in , text.col = "grey", cex=1.2, pt.cex=3)
+  
+
+  
+  
+  
+  , figPath = figpath
+  allGenres <- read.csv("allGenres.csv")
+  wordcloud2(data = allGenres, hoverFunction = hoverFunction, widgetsize = 100, ellipticity = 1)
+})
+  
+
+#figpath = system.file("./pics/pobrane.png",package = "wordcloud2")
+
+#  hoverFunction = htmlwidgets :: JS ( 'function hover() {
+#  $(this).css("background-color", "yellow");
+# }' )
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  C <- read.csv("sourceDestination.csv")
+  C$value <- 1:8
+  C$source <- C$source - 1
+  C$destination <- C$destination - 1
+  nodes <- data.frame(
+    name = c("Imagine Dragons", "Taco Hemingway", "Karolina Czarnecka", "Selphius","Daria Zawiałow","TheFatRat","Mata","Ben E. King","Karolina Czarnecka"),
+    group = c(1,1,1,2,2,2,3,3,3),
+    size = rep(100, 9))
+  
+  w <- forceNetwork(Links = C, Nodes = nodes,
+                    Source = "source", Target = "destination",
+                    Value = "value", NodeID = "name",
+                    Group = "group", Nodesize = "size", opacity = 0.8)
+  
+  w$x$nodes$hyperlink <- paste0(
+    'http://en.wikipedia.org/wiki/Special:Search?search=',
+    nodes$name
+  )
+  w$x$options$clickAction = 'window.open(d.hyperlink)'
+  
+  w

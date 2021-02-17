@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1610810473887.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "145622129",
+    "id" : "4990DCC2",
+    "lastKnownWriteTime" : 1610819256,
+    "last_content_update" : 1610819256083,
+    "path" : "~/Semestr 3/Techniki Wizualizacji Danych/HW10/Graph/NEtworkExp.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "37,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
