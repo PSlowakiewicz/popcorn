@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mini.dataframereader.controllers.MainViewController">
+   <bottom>
+      <AnchorPane prefHeight="106.0" prefWidth="754.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="codeText" editable="false" layoutX="24.0" layoutY="-44.0" prefHeight="140.0" prefWidth="880.0" text="Generated code..." AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="-44.0" />
+         </children>
+      </AnchorPane>
+   </bottom>
+   <top>
+      <VBox prefHeight="112.0" prefWidth="900.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="51.0" spacing="15.0">
+               <children>
+                  <TextField fx:id="pathPrompt" alignment="TOP_LEFT" prefHeight="27.0" prefWidth="136.0" promptText="path to file...">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </TextField>
+                  <Button fx:id="firstButton" mnemonicParsing="false" onAction="#loadFIleFromPath" text="Load" />
+                  <Button fx:id="clearButton" mnemonicParsing="false" onAction="#clearTable" text="Clear" />
+                  <Button fx:id="chooseFileButton" mnemonicParsing="false" onAction="#chooseFlie" text="Choose File" />
+                  <Button fx:id="refreshButton" mnemonicParsing="false" onAction="#refresh" text="Refresh" />
+                  <Text fx:id="warningField" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome!" textAlignment="CENTER" wrappingWidth="132.5366554260254">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Text>
+                  <Button fx:id="copyCode" mnemonicParsing="false" onAction="#copyCode" text="Copy code" />
+                  <Button mnemonicParsing="false" onAction="#saveFile" text="Save File" />
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT">
+               <children>
+                  <VBox>
+                     <children>
+                        <Label text="Name:" />
+                        <TextField fx:id="dfName">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" right="20.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox prefHeight="52.0" prefWidth="122.0">
+                     <children>
+                        <Label prefHeight="18.0" prefWidth="62.0" text="Separator:">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
+                        <TextField fx:id="separatorTextField" />
+                     </children>
+                     <HBox.margin>
+                        <Insets right="30.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox prefHeight="52.0" prefWidth="116.0">
+                     <children>
+                        <Label text="Skip rows:" />
+                        <TextField fx:id="skipRows">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="30.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <HBox alignment="CENTER_LEFT">
+                     <children>
+                        <CheckBox fx:id="headCheckBox" alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" prefHeight="52.0" prefWidth="169.0" text="First row as column names" wrapText="true" />
+                     </children>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <ScrollPane fx:id="scrollPane" prefHeight="208.0" prefWidth="900.0" BorderPane.alignment="CENTER">
+         <content>
+            <VBox prefHeight="1538.0" prefWidth="900.0">
+               <children>
+                  <HBox fx:id="namesHBox" prefHeight="0.0" prefWidth="900.0" />
+                  <HBox fx:id="typesHBox" prefHeight="27.0" prefWidth="900.0" />
+                  <TableView fx:id="tableView" minWidth="400.0" prefHeight="1153.0" prefWidth="900.0" stylesheets="@remove_scroll.css" />
+               </children>
+            </VBox>
+         </content>
+         <BorderPane.margin>
+            <Insets bottom="50.0" />
+         </BorderPane.margin>
+      </ScrollPane>
+   </center>
+</BorderPane>
