@@ -1,9 +1,9 @@
-# Vacine Distribution Data Base
+# Vacine Distribution DataBase
 
 ## View of Project
-Idea for this project was to create base thats cover all steps of vacine distribution: form factory to client. There is also a proccedure to add new appointments
+The idea for this project was to create a base that covers all steps of vaccine distribution: from the factory to the client. There is also a procedure to add new appointments
 
-### Relations in Data Base
+### Relations in DataBase
 
 ![image](https://github.com/PSlowakiewicz/popcorn/blob/vacine/Projects/MS%20SQL%20-%20Vacine%20Distriubution%20DB/Screens/DiagramER.png)
 
@@ -11,3 +11,8 @@ Idea for this project was to create base thats cover all steps of vacine distrib
 
 ![image](https://github.com/PSlowakiewicz/popcorn/blob/vacine/Projects/MS%20SQL%20-%20Vacine%20Distriubution%20DB/Screens/ADD.png)
 
+### Data Warehouse
+
+In addiction, data warehouse was created for this project
+
+![image](https://github.com/PSlowakiewicz/popcorn/blob/vacine/Projects/MS%20SQL%20-%20Vacine%20Distriubution%20DB/Screens/WH.png)
