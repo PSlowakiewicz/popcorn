@@ -5,9 +5,9 @@ Idea for this project was to create base thats cover all steps of vacine distrib
 
 ### Relations in Data Base
 
-![image](https://github.com/PSlowakiewicz/popcorn/blob/kancelaria/Projects/Java_SQL%20-%20Law%20Ofice%20System/Screens/DiagramER.png)
+![image](https://github.com/PSlowakiewicz/popcorn/blob/vacine/Projects/MS%20SQL%20-%20Vacine%20Distriubution%20DB/Screens/DiagramER.png)
 
 ### Procedure 
 
-![image](https://github.com/PSlowakiewicz/popcorn/blob/kancelaria/Projects/Java_SQL%20-%20Law%20Ofice%20System/Screens/ADD.png)
+![image](https://github.com/PSlowakiewicz/popcorn/blob/vacine/Projects/MS%20SQL%20-%20Vacine%20Distriubution%20DB/Screens/ADD.png)
 
