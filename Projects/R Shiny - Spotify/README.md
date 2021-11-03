@@ -8,4 +8,4 @@ Założeniem projektu było zwizualizowanie gustów muzycznych osób należącyc
 
 ### Interaktywna Mapa Słów
 
-![image](https://user-images.githubusercontent.com/56126526/140211557-eafd6700-9c46-4f8e-8cf0-e588487c94b8.png)
+![image](Projects/R Shiny - Spotify/Screens/page1.png)
