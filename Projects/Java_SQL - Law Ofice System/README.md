@@ -1,5 +1,13 @@
-# DuraLEX - menagment system for law firm
+# DuraLEX - management system for law firm
 
-The point of this project was to create system allowing law firm mengaging their clients and cases. For that reason I created database (file DBCreate.sql) and Java program that conects to db and allow to recive informations and change records.
+## View of project
+The point of this project was to create a system allowing law firm managing their clients and cases. For that reason, I created a database (file DBCreate.sql) and Java program that connects to DB and allows to receive information and change records.
 
-![image](https://github.com/PSlowakiewicz/popcorn/blob/kancelaria/Projects/R%20Shiny%20-%20Spotify/Screens/page2.png)
+### All clients info
+![image](https://github.com/PSlowakiewicz/popcorn/blob/kancelaria/Projects/Java_SQL%20-%20Law%20Ofice%20System/Screens/Show.png)
+
+### Report about client
+
+![image](https://github.com/PSlowakiewicz/popcorn/blob/kancelaria/Projects/Java_SQL%20-%20Law%20Ofice%20System/Screens/Raport.png)
+
+
