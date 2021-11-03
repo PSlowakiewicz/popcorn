@@ -9,3 +9,8 @@ Założeniem projektu było zwizualizowanie gustów muzycznych osób należącyc
 ### Interaktywna Mapa Słów
 
 ![image](https://github.com/PSlowakiewicz/popcorn/blob/kancelaria/Projects/R%20Shiny%20-%20Spotify/Screens/page1.png)
+
+### Radarchart Ulubionych Gatunków
+
+![image](https://github.com/PSlowakiewicz/popcorn/blob/kancelaria/Projects/R%20Shiny%20-%20Spotify/Screens/page1.png)
+
