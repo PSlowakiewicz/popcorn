@@ -12,5 +12,11 @@ Założeniem projektu było zwizualizowanie gustów muzycznych osób należącyc
 
 ### Radarchart Ulubionych Gatunków
 
-![image](https://github.com/PSlowakiewicz/popcorn/blob/kancelaria/Projects/R%20Shiny%20-%20Spotify/Screens/page1.png)
+![image](https://github.com/PSlowakiewicz/popcorn/blob/kancelaria/Projects/R%20Shiny%20-%20Spotify/Screens/page2.png)
+
+### Graf Połączeń Artystów
+
+![image](https://github.com/PSlowakiewicz/popcorn/blob/kancelaria/Projects/R%20Shiny%20-%20Spotify/Screens/page3.png)
+
+
 
