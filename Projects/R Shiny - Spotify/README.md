@@ -8,4 +8,4 @@ Założeniem projektu było zwizualizowanie gustów muzycznych osób należącyc
 
 ### Interaktywna Mapa Słów
 
-![image](Projects/R Shiny - Spotify/Screens/page1.png)
+![image](https://github.com/PSlowakiewicz/popcorn/blob/kancelaria/Projects/R%20Shiny%20-%20Spotify/Screens/page1.png)
