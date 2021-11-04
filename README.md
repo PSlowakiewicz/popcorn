@@ -7,3 +7,4 @@ Repository contains my recent projects I'd like to present as an evaluation of m
 - User Application to porcess data in JavaFX
 - Menagment System for law firm in Java and SQL
 - Vacine Distribution DataBase in SQL
+- Patry membership prediction in Python/Sklearn
