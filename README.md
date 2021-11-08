@@ -9,3 +9,4 @@ Repository contains my recent projects I'd like to present as an evaluation of m
 - Vacine Distribution DataBase in SQL
 - Political parties membership prediction in Python/Sklearn
 - Unsupervised ML in Python/Sklearn
+- OCR PDF to TXT in Python/Tesseract
