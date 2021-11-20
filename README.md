@@ -10,4 +10,5 @@ Repository contains my recent projects I'd like to present as an evaluation of m
 - Political parties membership prediction in Python/Sklearn
 - Unsupervised ML in Python/Sklearn
 - OCR PDF to TXT in Python/Tesseract
+- Case Study using XAI methods in Python/Dalex
 - Co-captain of Project for Contest (in progress)
