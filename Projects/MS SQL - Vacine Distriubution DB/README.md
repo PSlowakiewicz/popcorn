@@ -9,7 +9,7 @@ The idea for this project was to create a base that covers all steps of vaccine 
 
 ### Procedure 
 
-![image](https://github.com/PSlowakiewicz/popcorn/blob/vacine/Projects/MS%20SQL%20-%20Vacine%20Distriubution%20DB/Screens/ADD.png)
+![image](https://github.com/PSlowakiewicz/popcorn/blob/main/Projects/MS%20SQL%20-%20Vacine%20Distriubution%20DB/Screens/ADD.png)
 
 ### Data Warehouse
 
