@@ -5,7 +5,7 @@ The idea for this project was to create a base that covers all steps of vaccine 
 
 ### Relations in DataBase
 
-![image](https://github.com/PSlowakiewicz/popcorn/blob/vacine/Projects/MS%20SQL%20-%20Vacine%20Distriubution%20DB/Screens/DiagramER.png)
+![image](https://github.com/PSlowakiewicz/popcorn/blob/main/Projects/MS%20SQL%20-%20Vacine%20Distriubution%20DB/Screens/DiagramER.png)
 
 ### Procedure 
 
@@ -15,4 +15,4 @@ The idea for this project was to create a base that covers all steps of vaccine 
 
 In addiction, data warehouse was created for this project
 
-![image](https://github.com/PSlowakiewicz/popcorn/blob/vacine/Projects/MS%20SQL%20-%20Vacine%20Distriubution%20DB/Screens/WH.png)
+![image](https://github.com/PSlowakiewicz/popcorn/blob/main/Projects/MS%20SQL%20-%20Vacine%20Distriubution%20DB/Screens/WH.png)
